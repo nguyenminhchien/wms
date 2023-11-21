@@ -14,5 +14,7 @@
         "stock_partner_delivery_window",
         "stock_release_channel_shipment_lead_time",
     ],
-    "data": [],
+    "data": [
+        "views/stock_release_channel_view.xml",
+    ],
 }

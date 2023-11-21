@@ -11,5 +11,5 @@ class StockPicking(models.Model):
         :return: release channels
         """
         channels = super()._find_release_channel_possible_candidate()
-        channels = channels.filter_release_channel_partner_window(self.partner_id)
+        channels = channels.filter_release_channel_partner_window(self, self.partner_id)
         return channels
